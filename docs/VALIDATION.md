@@ -17,8 +17,10 @@
 - I compiled the self-contained report with hosted pdfLaTeX at TeXLive.net. I rendered the
   PDF and visually inspected every page. I checked the four figure captions and
   cross-references and corrected a clipped figure before publication.
-- I include a GitHub Actions workflow for numerical reproduction and report
-  compilation. Its live run status is available on the repository Actions page.
+- I also verified reproduction on GitHub. The workflow successfully installed
+  the pinned dependencies, reran the analysis, passed the numerical verifier,
+  regenerated the report source and compiled it with two-pass pdfLaTeX.
+  [Successful verification run](https://github.com/nakshatra0904/bargaining-experience-reciprocity/actions/runs/38163638349).
 
 The verification concerns reproduction and presentation. It does not establish
 causality, representativeness, or global novelty.

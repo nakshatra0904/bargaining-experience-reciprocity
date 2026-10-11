@@ -2712,9 +2712,12 @@
       "all_pdf_pages_visually_reviewed": true,
       "all_four_figures_present": true,
       "latex_references_resolved": true,
-      "github_workflow_executed": false,
+      "github_workflow_executed": true,
       "report_tex_sha256": "24289825cca856b016811c9232fa9ef2d0cbc58b2dfe0aac63e47c33a32c6982",
-      "report_pdf_sha256": "f3593dcbcdabd69169d621592ccdb09786a5ec07dfce712427f3af1c7fb97b22"
+      "report_pdf_sha256": "f3593dcbcdabd69169d621592ccdb09786a5ec07dfce712427f3af1c7fb97b22",
+      "github_workflow_conclusion": "success",
+      "github_workflow_run_url": "https://github.com/nakshatra0904/bargaining-experience-reciprocity/actions/runs/38163638349",
+      "github_validated_analysis_commit": "1e1097471b84d120b439f7a9ad9cb09ac7ece6e9"
     }
   },
   "data_hashes": {
