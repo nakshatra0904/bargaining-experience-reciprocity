@@ -1,0 +1,26 @@
+name: Reproduce analysis and compile report
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/run_analysis.py --output build/results.json
+      - run: python scripts/verify_results.py --candidate build/results.json
+      - run: python scripts/build_report.py --results results/results.json
+      - name: Install TeX packages on the hosted runner
+        run: sudo apt-get update && sudo apt-get install -y texlive-latex-extra texlive-pictures texlive-fonts-recommended
+      - name: Compile self-contained report
+        run: |
+          pdflatex -interaction=nonstopmode -halt-on-error -output-directory=report report/project_report.tex
+          pdflatex -interaction=nonstopmode -halt-on-error -output-directory=report report/project_report.tex

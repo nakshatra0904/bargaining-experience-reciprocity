@@ -1,0 +1,2739 @@
+{
+  "schema_version": "1.0",
+  "study": "Experience and reciprocity in eBay Best Offer bargaining",
+  "data_period": "June 2012-December 2013",
+  "sampling": "Nonrandom contiguous 64 MiB compressed prefix; final seller block removed",
+  "primary_models": [
+    {
+      "model": "Primary: all",
+      "n": 27016,
+      "sellers": 3004,
+      "threshold": 100,
+      "novice_n": 742,
+      "experienced_n": 26274,
+      "novice_sellers": 640,
+      "experienced_sellers": 2385,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.07164910562645907,
+      "novice_slope_se": 0.05393946651313308,
+      "novice_slope_ci_low": -0.03411293337636198,
+      "novice_slope_ci_high": 0.17741114462928012,
+      "novice_slope_p": 0.18417192415039138,
+      "experienced_slope_estimate": 0.08430351038830494,
+      "experienced_slope_se": 0.02141316078967091,
+      "experienced_slope_ci_low": 0.042317564048634564,
+      "experienced_slope_ci_high": 0.1262894567279753,
+      "experienced_slope_p": 8.438169727277991e-05,
+      "slope_difference_estimate": 0.012654404761845865,
+      "slope_difference_se": 0.05865148867127097,
+      "slope_difference_ci_low": -0.10234675178304056,
+      "slope_difference_ci_high": 0.1276555613067323,
+      "slope_difference_p": 0.8291926776445505
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "n": 13550,
+      "sellers": 1487,
+      "threshold": 100,
+      "novice_n": 351,
+      "experienced_n": 13199,
+      "novice_sellers": 304,
+      "experienced_sellers": 1193,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.033697345781344784,
+      "novice_slope_se": 0.07390984479773395,
+      "novice_slope_ci_low": -0.11128137336600938,
+      "novice_slope_ci_high": 0.17867606492869895,
+      "novice_slope_p": 0.648510531572811,
+      "experienced_slope_estimate": 0.07887377063311499,
+      "experienced_slope_se": 0.0336757275445937,
+      "experienced_slope_ci_low": 0.012816754018730794,
+      "experienced_slope_ci_high": 0.1449307872474992,
+      "experienced_slope_p": 0.019304188938136128,
+      "slope_difference_estimate": 0.045176424851770196,
+      "slope_difference_se": 0.08211562619432262,
+      "slope_difference_ci_low": -0.11589844061731303,
+      "slope_difference_ci_high": 0.20625129032085343,
+      "slope_difference_p": 0.5822948911637346
+    },
+    {
+      "model": "Primary: validation sellers",
+      "n": 13466,
+      "sellers": 1517,
+      "threshold": 100,
+      "novice_n": 391,
+      "experienced_n": 13075,
+      "novice_sellers": 336,
+      "experienced_sellers": 1192,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.10200678938897051,
+      "novice_slope_se": 0.07876558212016771,
+      "novice_slope_ci_low": -0.05249426574983082,
+      "novice_slope_ci_high": 0.25650784452777187,
+      "novice_slope_p": 0.19549394056404987,
+      "experienced_slope_estimate": 0.0907530189967457,
+      "experienced_slope_se": 0.025003286849734296,
+      "experienced_slope_ci_low": 0.04170832084002447,
+      "experienced_slope_ci_high": 0.13979771715346695,
+      "experienced_slope_p": 0.00029324184605164565,
+      "slope_difference_estimate": -0.011253770392224808,
+      "slope_difference_se": 0.08329313582561612,
+      "slope_difference_ci_low": -0.17463575811427254,
+      "slope_difference_ci_high": 0.15212821732982293,
+      "slope_difference_p": 0.8925425094034604
+    },
+    {
+      "model": "Seller fixed effects",
+      "n": 27016,
+      "sellers": 3004,
+      "threshold": 100,
+      "novice_n": 742,
+      "experienced_n": 26274,
+      "novice_sellers": 640,
+      "experienced_sellers": 2385,
+      "seller_fe": true,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.19418756747885677,
+      "novice_slope_se": 0.10971777304336226,
+      "novice_slope_ci_low": -0.020942023932460446,
+      "novice_slope_ci_high": 0.40931715889017395,
+      "novice_slope_p": 0.0768481709564324,
+      "experienced_slope_estimate": 0.15287296875026152,
+      "experienced_slope_se": 0.018172022705358587,
+      "experienced_slope_ci_low": 0.11724209773198141,
+      "experienced_slope_ci_high": 0.18850383976854163,
+      "experienced_slope_p": 6.119018958561675e-17,
+      "slope_difference_estimate": -0.041314598728595234,
+      "slope_difference_se": 0.11163100181978819,
+      "slope_difference_ci_low": -0.2601955616226914,
+      "slope_difference_ci_high": 0.17756636416550092,
+      "slope_difference_p": 0.7113343153996181
+    },
+    {
+      "model": "50+ threshold",
+      "n": 28462,
+      "sellers": 3570,
+      "threshold": 50,
+      "novice_n": 742,
+      "experienced_n": 27720,
+      "novice_sellers": 640,
+      "experienced_sellers": 2960,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.07159381954246287,
+      "novice_slope_se": 0.05393563092392694,
+      "novice_slope_ci_low": -0.03415393686924105,
+      "novice_slope_ci_high": 0.17734157595416677,
+      "novice_slope_p": 0.18446336631432736,
+      "experienced_slope_estimate": 0.08391096404598966,
+      "experienced_slope_se": 0.02050829420924291,
+      "experienced_slope_ci_low": 0.0437018098503632,
+      "experienced_slope_ci_high": 0.12412011824161612,
+      "experienced_slope_p": 4.379477357974241e-05,
+      "slope_difference_estimate": 0.012317144503526795,
+      "slope_difference_se": 0.05825088262192896,
+      "slope_difference_ci_low": -0.10189121907265311,
+      "slope_difference_ci_high": 0.1265255080797067,
+      "slope_difference_p": 0.8325482791746432
+    },
+    {
+      "model": "250+ threshold",
+      "n": 24395,
+      "sellers": 2269,
+      "threshold": 250,
+      "novice_n": 742,
+      "experienced_n": 23653,
+      "novice_sellers": 640,
+      "experienced_sellers": 1637,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.07183878164347332,
+      "novice_slope_se": 0.05396170101367863,
+      "novice_slope_ci_low": -0.03398068109788961,
+      "novice_slope_ci_high": 0.17765824438483624,
+      "novice_slope_p": 0.18322674254445015,
+      "experienced_slope_estimate": 0.07890248509108481,
+      "experienced_slope_se": 0.023244528651682375,
+      "experienced_slope_ci_low": 0.03331972014129688,
+      "experienced_slope_ci_high": 0.12448525004087274,
+      "experienced_slope_p": 0.0006994845354599609,
+      "slope_difference_estimate": 0.007063703447611489,
+      "slope_difference_se": 0.05948805439389799,
+      "slope_difference_ci_low": -0.10959299634573927,
+      "slope_difference_ci_high": 0.12372040324096226,
+      "slope_difference_p": 0.9054906373626634
+    },
+    {
+      "model": "No messages",
+      "n": 12203,
+      "sellers": 1596,
+      "threshold": 100,
+      "novice_n": 219,
+      "experienced_n": 11984,
+      "novice_sellers": 199,
+      "experienced_sellers": 1398,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.07766737114408342,
+      "novice_slope_se": 0.10784922566896106,
+      "novice_slope_ci_low": -0.13387375267854837,
+      "novice_slope_ci_high": 0.2892084949667152,
+      "novice_slope_p": 0.4715395813361167,
+      "experienced_slope_estimate": 0.15690908375171214,
+      "experienced_slope_se": 0.027946860482039006,
+      "experienced_slope_ci_low": 0.10209264685089281,
+      "experienced_slope_ci_high": 0.21172552065253147,
+      "experienced_slope_p": 2.3205309973950628e-08,
+      "slope_difference_estimate": 0.07924171260762873,
+      "slope_difference_se": 0.11224128475870487,
+      "slope_difference_ci_low": -0.14091422611030563,
+      "slope_difference_ci_high": 0.29939765132556306,
+      "slope_difference_p": 0.48029475579413244
+    },
+    {
+      "model": "Price $1-$1000",
+      "n": 25672,
+      "sellers": 2816,
+      "threshold": 100,
+      "novice_n": 649,
+      "experienced_n": 25023,
+      "novice_sellers": 560,
+      "experienced_sellers": 2276,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.04380829094400641,
+      "novice_slope_se": 0.057937904859242065,
+      "novice_slope_ci_low": -0.06979676229131632,
+      "novice_slope_ci_high": 0.15741334417932915,
+      "novice_slope_p": 0.4496375996718282,
+      "experienced_slope_estimate": 0.07564213038361206,
+      "experienced_slope_se": 0.02235897139274128,
+      "experienced_slope_ci_low": 0.03180050128897206,
+      "experienced_slope_ci_high": 0.11948375947825206,
+      "experienced_slope_p": 0.000726584544911856,
+      "slope_difference_estimate": 0.031833839439605646,
+      "slope_difference_se": 0.06267506500425529,
+      "slope_difference_ci_low": -0.09105987088067605,
+      "slope_difference_ci_high": 0.15472754975988734,
+      "slope_difference_p": 0.6115501333805645
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "n": 15918,
+      "sellers": 2210,
+      "threshold": 100,
+      "novice_n": 404,
+      "experienced_n": 15514,
+      "novice_sellers": 358,
+      "experienced_sellers": 1862,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.25553839499491715,
+      "novice_slope_se": 0.0654500661680426,
+      "novice_slope_ci_low": 0.12718829704645873,
+      "novice_slope_ci_high": 0.38388849294337557,
+      "novice_slope_p": 9.732148241793947e-05,
+      "experienced_slope_estimate": 0.22633157096732656,
+      "experienced_slope_se": 0.015677672586868557,
+      "experienced_slope_ci_low": 0.19558705182563385,
+      "experienced_slope_ci_high": 0.2570760901090193,
+      "experienced_slope_p": 3.257468070308804e-45,
+      "slope_difference_estimate": -0.029206824027590582,
+      "slope_difference_se": 0.06719132557167536,
+      "slope_difference_ci_low": -0.16097159866157182,
+      "slope_difference_ci_high": 0.10255795060639064,
+      "slope_difference_p": 0.6638361099082285
+    },
+    {
+      "model": "Equal weight per seller",
+      "n": 27016,
+      "sellers": 3004,
+      "threshold": 100,
+      "novice_n": 742,
+      "experienced_n": 26274,
+      "novice_sellers": 640,
+      "experienced_sellers": 2385,
+      "seller_fe": false,
+      "equal_seller_weight": true,
+      "absolute_scale": false,
+      "novice_slope_estimate": 0.07705795169888278,
+      "novice_slope_se": 0.056360953423177665,
+      "novice_slope_ci_low": -0.0334520280897931,
+      "novice_slope_ci_high": 0.18756793148755868,
+      "novice_slope_p": 0.17165796838602015,
+      "experienced_slope_estimate": 0.08802774254330474,
+      "experienced_slope_se": 0.02321278532193205,
+      "experienced_slope_ci_low": 0.04251317472709279,
+      "experienced_slope_ci_high": 0.1335423103595167,
+      "experienced_slope_p": 0.0001522528172284613,
+      "slope_difference_estimate": 0.010969790844421954,
+      "slope_difference_se": 0.06061851711039466,
+      "slope_difference_ci_low": -0.10788822510131905,
+      "slope_difference_ci_high": 0.12982780679016295,
+      "slope_difference_p": 0.8564077665742734
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "n": 27016,
+      "sellers": 3004,
+      "threshold": 100,
+      "novice_n": 742,
+      "experienced_n": 26274,
+      "novice_sellers": 640,
+      "experienced_sellers": 2385,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": true,
+      "novice_slope_estimate": -0.13278031574858135,
+      "novice_slope_se": 0.028741634061535556,
+      "novice_slope_ci_low": -0.18913559731001123,
+      "novice_slope_ci_high": -0.07642503418715146,
+      "novice_slope_p": 4.002941415371255e-06,
+      "experienced_slope_estimate": -0.09775725769813298,
+      "experienced_slope_se": 0.01292386294863022,
+      "experienced_slope_ci_low": -0.12309777709143,
+      "experienced_slope_ci_high": -0.07241673830483597,
+      "experienced_slope_p": 5.1601629161783576e-14,
+      "slope_difference_estimate": 0.03502305805044836,
+      "slope_difference_se": 0.02859562756465905,
+      "slope_difference_ci_low": -0.021045940649552806,
+      "slope_difference_ci_high": 0.09109205675044951,
+      "slope_difference_p": 0.22075806934309058
+    }
+  ],
+  "coefficients": [
+    {
+      "model": "Primary: all",
+      "term": "const",
+      "coefficient": 0.2185198072815986,
+      "cluster_se": 0.027023409061608713
+    },
+    {
+      "model": "Primary: all",
+      "term": "buyer_concession",
+      "coefficient": 0.07164910562645907,
+      "cluster_se": 0.05393946651313308
+    },
+    {
+      "model": "Primary: all",
+      "term": "experienced",
+      "coefficient": -0.03587059830744345,
+      "cluster_se": 0.021774778063717568
+    },
+    {
+      "model": "Primary: all",
+      "term": "interaction",
+      "coefficient": 0.012654404761845865,
+      "cluster_se": 0.05865148867127097
+    },
+    {
+      "model": "Primary: all",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0006941372358200987,
+      "cluster_se": 0.0015751359189029414
+    },
+    {
+      "model": "Primary: all",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.002841563921652291,
+      "cluster_se": 0.002834061157793709
+    },
+    {
+      "model": "Primary: all",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.018931405104801298,
+      "cluster_se": 0.026433771172658976
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-07",
+      "coefficient": 0.005550135623565424,
+      "cluster_se": 0.00905959363756175
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-08",
+      "coefficient": 0.0026811872668578455,
+      "cluster_se": 0.010213156484313424
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-09",
+      "coefficient": 0.004390848061544834,
+      "cluster_se": 0.010203191858594696
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-10",
+      "coefficient": 0.0021992745110731154,
+      "cluster_se": 0.010556336330334929
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-11",
+      "coefficient": 0.004403444005014851,
+      "cluster_se": 0.010029426315318609
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2012-12",
+      "coefficient": 0.012467042658484483,
+      "cluster_se": 0.010192658065160532
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-01",
+      "coefficient": 0.012369950126254713,
+      "cluster_se": 0.009829852426571138
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-02",
+      "coefficient": 0.015400136072049786,
+      "cluster_se": 0.01044102431952355
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-03",
+      "coefficient": 0.011608897464197427,
+      "cluster_se": 0.009993831340108035
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-04",
+      "coefficient": 0.012129946950909791,
+      "cluster_se": 0.011147990495686828
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-05",
+      "coefficient": 0.015344433342386315,
+      "cluster_se": 0.010603606012946387
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-06",
+      "coefficient": 0.013874895972613533,
+      "cluster_se": 0.013300614000186606
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-07",
+      "coefficient": 0.020721107394256925,
+      "cluster_se": 0.015767688830146568
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-08",
+      "coefficient": 0.0213610615143781,
+      "cluster_se": 0.017170346318740863
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-09",
+      "coefficient": 0.06639891358083927,
+      "cluster_se": 0.018574729271054365
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-10",
+      "coefficient": 0.04138643591060484,
+      "cluster_se": 0.019002572197584996
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-11",
+      "coefficient": 0.08545123015152686,
+      "cluster_se": 0.02389861522478115
+    },
+    {
+      "model": "Primary: all",
+      "term": "month_2013-12",
+      "coefficient": 0.08261645555842953,
+      "cluster_se": 0.03065994612108922
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "const",
+      "coefficient": 0.23139828455103884,
+      "cluster_se": 0.038045413842869795
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "buyer_concession",
+      "coefficient": 0.033697345781344784,
+      "cluster_se": 0.07390984479773395
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "experienced",
+      "coefficient": -0.04907109699043941,
+      "cluster_se": 0.030767117456732454
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "interaction",
+      "coefficient": 0.045176424851770196,
+      "cluster_se": 0.08211562619432262
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "log_buyer_experience",
+      "coefficient": -0.0004531320807418018,
+      "cluster_se": 0.002170367220146785
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "log_initial_seller_price",
+      "coefficient": 8.218978606053961e-05,
+      "cluster_se": 0.003370184010744834
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "gap_before_buyer_concession",
+      "coefficient": 0.012057526828820726,
+      "cluster_se": 0.03924045577497118
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-07",
+      "coefficient": -0.0025059091769854785,
+      "cluster_se": 0.011968821250551815
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-08",
+      "coefficient": -0.0037865487711357124,
+      "cluster_se": 0.013375198304716942
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-09",
+      "coefficient": 0.012139251097420341,
+      "cluster_se": 0.012570603869089455
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-10",
+      "coefficient": 0.010547866750848322,
+      "cluster_se": 0.01356580977546968
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-11",
+      "coefficient": 0.00796809877666578,
+      "cluster_se": 0.01358170707200192
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2012-12",
+      "coefficient": 0.02310898499660321,
+      "cluster_se": 0.013297164983705033
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-01",
+      "coefficient": 0.018896567782520066,
+      "cluster_se": 0.012602673767748415
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-02",
+      "coefficient": 0.016040511427269064,
+      "cluster_se": 0.013217834000904977
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-03",
+      "coefficient": 0.016160315965469133,
+      "cluster_se": 0.012729195237959554
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-04",
+      "coefficient": 0.02957545260144475,
+      "cluster_se": 0.015522101237762933
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-05",
+      "coefficient": 0.02894602049342651,
+      "cluster_se": 0.01460562580126691
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-06",
+      "coefficient": 0.036054304928337465,
+      "cluster_se": 0.017020623947993342
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-07",
+      "coefficient": 0.02401446098596213,
+      "cluster_se": 0.01958384966725029
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-08",
+      "coefficient": 0.026865717076362032,
+      "cluster_se": 0.021754222980390217
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-09",
+      "coefficient": 0.08185109040250947,
+      "cluster_se": 0.023593695670661614
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-10",
+      "coefficient": 0.05654729528406682,
+      "cluster_se": 0.0252902599990873
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-11",
+      "coefficient": 0.09362005242635356,
+      "cluster_se": 0.031062382990046152
+    },
+    {
+      "model": "Primary: discovery sellers",
+      "term": "month_2013-12",
+      "coefficient": 0.058601000447136765,
+      "cluster_se": 0.04444536884835995
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "const",
+      "coefficient": 0.20930152836924343,
+      "cluster_se": 0.038456568575794124
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "buyer_concession",
+      "coefficient": 0.10200678938897051,
+      "cluster_se": 0.07876558212016771
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "experienced",
+      "coefficient": -0.02507974204375109,
+      "cluster_se": 0.030785770184208083
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "interaction",
+      "coefficient": -0.011253770392224808,
+      "cluster_se": 0.08329313582561612
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0018810120606011223,
+      "cluster_se": 0.002169914657860726
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.00574459926009157,
+      "cluster_se": 0.00430588693095774
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.0503848918152357,
+      "cluster_se": 0.033216278154470355
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-07",
+      "coefficient": 0.01177460519926565,
+      "cluster_se": 0.01386720031208752
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-08",
+      "coefficient": 0.0060981259421484645,
+      "cluster_se": 0.015018277467581774
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-09",
+      "coefficient": -0.004259180176897933,
+      "cluster_se": 0.0156295472738748
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-10",
+      "coefficient": -0.0073984621243143416,
+      "cluster_se": 0.016402146299846706
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-11",
+      "coefficient": 0.0001775682412311401,
+      "cluster_se": 0.014790140369694123
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2012-12",
+      "coefficient": 0.0009399900041839605,
+      "cluster_se": 0.01564406879795267
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-01",
+      "coefficient": 0.004893898179527955,
+      "cluster_se": 0.015238894339174427
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-02",
+      "coefficient": 0.013287396693949922,
+      "cluster_se": 0.015959794287970747
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-03",
+      "coefficient": 0.004881779132971327,
+      "cluster_se": 0.015458328994697953
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-04",
+      "coefficient": -0.005883732575407682,
+      "cluster_se": 0.015399250489047438
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-05",
+      "coefficient": 0.00048526077060458427,
+      "cluster_se": 0.01503396853294072
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-06",
+      "coefficient": -0.010273615553602957,
+      "cluster_se": 0.020297304404749056
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-07",
+      "coefficient": 0.016761419164289578,
+      "cluster_se": 0.025057514201563935
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-08",
+      "coefficient": 0.016033708660048294,
+      "cluster_se": 0.027963039366136793
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-09",
+      "coefficient": 0.04429601964949769,
+      "cluster_se": 0.030308633135948462
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-10",
+      "coefficient": 0.024154615646856125,
+      "cluster_se": 0.029480302470597332
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-11",
+      "coefficient": 0.07576156786172919,
+      "cluster_se": 0.0370936922892938
+    },
+    {
+      "model": "Primary: validation sellers",
+      "term": "month_2013-12",
+      "coefficient": 0.10231301470431488,
+      "cluster_se": 0.038362836307064434
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "buyer_concession",
+      "coefficient": 0.19418756747885677,
+      "cluster_se": 0.10971777304336226
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "experienced",
+      "coefficient": 0.05061586359001663,
+      "cluster_se": 0.059411748622089554
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "interaction",
+      "coefficient": -0.041314598728595234,
+      "cluster_se": 0.11163100181978819
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "log_buyer_experience",
+      "coefficient": -0.0006252618594840167,
+      "cluster_se": 0.0009920103710637626
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.004504136545332286,
+      "cluster_se": 0.002345853897794332
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.09587048994931005,
+      "cluster_se": 0.02087507966684322
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-07",
+      "coefficient": 0.006579738877019788,
+      "cluster_se": 0.009607293687072204
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-08",
+      "coefficient": 0.008161755666066785,
+      "cluster_se": 0.010395305641619666
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-09",
+      "coefficient": 0.006067151822570036,
+      "cluster_se": 0.009430586079396305
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-10",
+      "coefficient": -0.0009130934397047577,
+      "cluster_se": 0.010506164593992146
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-11",
+      "coefficient": 0.008225238729165397,
+      "cluster_se": 0.009529263957326001
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2012-12",
+      "coefficient": 0.015442812992557096,
+      "cluster_se": 0.009529735133848992
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-01",
+      "coefficient": 0.00891247654736963,
+      "cluster_se": 0.009425062191290048
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-02",
+      "coefficient": 0.011231231560669215,
+      "cluster_se": 0.009760820591913551
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-03",
+      "coefficient": 0.0068789924171538275,
+      "cluster_se": 0.009150920899172384
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-04",
+      "coefficient": 0.009489351795161478,
+      "cluster_se": 0.01005052640083695
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-05",
+      "coefficient": 0.01613810749137523,
+      "cluster_se": 0.009833961552435487
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-06",
+      "coefficient": 0.01672502103984727,
+      "cluster_se": 0.011304028053357298
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-07",
+      "coefficient": 0.02440640544268742,
+      "cluster_se": 0.01369257485341422
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-08",
+      "coefficient": 0.0036770494485827963,
+      "cluster_se": 0.016473146620910033
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-09",
+      "coefficient": 0.05034065663708772,
+      "cluster_se": 0.016802953452635105
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-10",
+      "coefficient": 0.04081296838666867,
+      "cluster_se": 0.021025904631882208
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-11",
+      "coefficient": 0.05933120384376549,
+      "cluster_se": 0.022582797326255597
+    },
+    {
+      "model": "Seller fixed effects",
+      "term": "month_2013-12",
+      "coefficient": 0.0687651418333637,
+      "cluster_se": 0.030599991339548074
+    },
+    {
+      "model": "50+ threshold",
+      "term": "const",
+      "coefficient": 0.21536014347671786,
+      "cluster_se": 0.026578723029203385
+    },
+    {
+      "model": "50+ threshold",
+      "term": "buyer_concession",
+      "coefficient": 0.07159381954246287,
+      "cluster_se": 0.05393563092392694
+    },
+    {
+      "model": "50+ threshold",
+      "term": "experienced",
+      "coefficient": -0.03455341803998691,
+      "cluster_se": 0.021651189056842213
+    },
+    {
+      "model": "50+ threshold",
+      "term": "interaction",
+      "coefficient": 0.012317144503526795,
+      "cluster_se": 0.05825088262192896
+    },
+    {
+      "model": "50+ threshold",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0010393434196367373,
+      "cluster_se": 0.0015359449490571588
+    },
+    {
+      "model": "50+ threshold",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.003056275974073668,
+      "cluster_se": 0.0027219491565221507
+    },
+    {
+      "model": "50+ threshold",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.021020917884071014,
+      "cluster_se": 0.025202585314942513
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-07",
+      "coefficient": 0.0077849840173441175,
+      "cluster_se": 0.008902499895658363
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-08",
+      "coefficient": 0.00389058637905065,
+      "cluster_se": 0.009964214504365097
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-09",
+      "coefficient": 0.00706701637793794,
+      "cluster_se": 0.010006186512911982
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-10",
+      "coefficient": 0.006593808047587913,
+      "cluster_se": 0.010298145467079066
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-11",
+      "coefficient": 0.0061609241663832396,
+      "cluster_se": 0.00977956843451357
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2012-12",
+      "coefficient": 0.01438991988131372,
+      "cluster_se": 0.009910638086536786
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-01",
+      "coefficient": 0.011627036316291556,
+      "cluster_se": 0.00959622572257738
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-02",
+      "coefficient": 0.016084817399744624,
+      "cluster_se": 0.010142884068672016
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-03",
+      "coefficient": 0.01201298243197995,
+      "cluster_se": 0.009731391762097908
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-04",
+      "coefficient": 0.014908519061594419,
+      "cluster_se": 0.010753385068220494
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-05",
+      "coefficient": 0.017004948244437344,
+      "cluster_se": 0.010311022282334981
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-06",
+      "coefficient": 0.016327256694647085,
+      "cluster_se": 0.012928385632293602
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-07",
+      "coefficient": 0.02115885030295714,
+      "cluster_se": 0.015517943869011595
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-08",
+      "coefficient": 0.02348684597677608,
+      "cluster_se": 0.01677642956879748
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-09",
+      "coefficient": 0.07054263995593384,
+      "cluster_se": 0.01868921402288956
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-10",
+      "coefficient": 0.04227535373244579,
+      "cluster_se": 0.01875406472041609
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-11",
+      "coefficient": 0.08517409238888024,
+      "cluster_se": 0.02360203747760106
+    },
+    {
+      "model": "50+ threshold",
+      "term": "month_2013-12",
+      "coefficient": 0.0802022210770666,
+      "cluster_se": 0.03028073724572661
+    },
+    {
+      "model": "250+ threshold",
+      "term": "const",
+      "coefficient": 0.22018442216282025,
+      "cluster_se": 0.027883331582435084
+    },
+    {
+      "model": "250+ threshold",
+      "term": "buyer_concession",
+      "coefficient": 0.07183878164347332,
+      "cluster_se": 0.05396170101367863
+    },
+    {
+      "model": "250+ threshold",
+      "term": "experienced",
+      "coefficient": -0.03715740863601316,
+      "cluster_se": 0.02205160003100312
+    },
+    {
+      "model": "250+ threshold",
+      "term": "interaction",
+      "coefficient": 0.007063703447611489,
+      "cluster_se": 0.05948805439389799
+    },
+    {
+      "model": "250+ threshold",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0005964007612523001,
+      "cluster_se": 0.0016765335802929153
+    },
+    {
+      "model": "250+ threshold",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.00265577853046009,
+      "cluster_se": 0.0030743630706971596
+    },
+    {
+      "model": "250+ threshold",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.016947514968658827,
+      "cluster_se": 0.02873669407451757
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-07",
+      "coefficient": 0.006793604989900799,
+      "cluster_se": 0.009477439505544496
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-08",
+      "coefficient": 0.002873220007942998,
+      "cluster_se": 0.010751914368247366
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-09",
+      "coefficient": 0.0014188487022183784,
+      "cluster_se": 0.010674096835770894
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-10",
+      "coefficient": -0.00030938306257662833,
+      "cluster_se": 0.011135472492550355
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-11",
+      "coefficient": 0.0036991202977125067,
+      "cluster_se": 0.010464313969339877
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2012-12",
+      "coefficient": 0.013531198556626576,
+      "cluster_se": 0.01095284416899394
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-01",
+      "coefficient": 0.010820448237360444,
+      "cluster_se": 0.010255264584721402
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-02",
+      "coefficient": 0.01376870730326406,
+      "cluster_se": 0.011144459895880796
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-03",
+      "coefficient": 0.00905616013079897,
+      "cluster_se": 0.010581581529272757
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-04",
+      "coefficient": 0.01043953268463717,
+      "cluster_se": 0.011883243625765495
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-05",
+      "coefficient": 0.01487348496024925,
+      "cluster_se": 0.011226055237961533
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-06",
+      "coefficient": 0.01042422185948556,
+      "cluster_se": 0.014054337752101052
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-07",
+      "coefficient": 0.021625201093061288,
+      "cluster_se": 0.016388318240178553
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-08",
+      "coefficient": 0.021094559895842968,
+      "cluster_se": 0.017690030129724907
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-09",
+      "coefficient": 0.06547367215302656,
+      "cluster_se": 0.019059739760360274
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-10",
+      "coefficient": 0.03841431389670866,
+      "cluster_se": 0.01938326684058097
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-11",
+      "coefficient": 0.07641873384346665,
+      "cluster_se": 0.024083314181696503
+    },
+    {
+      "model": "250+ threshold",
+      "term": "month_2013-12",
+      "coefficient": 0.08911013261894853,
+      "cluster_se": 0.03208838237245138
+    },
+    {
+      "model": "No messages",
+      "term": "const",
+      "coefficient": 0.26224351175634775,
+      "cluster_se": 0.046218611164731666
+    },
+    {
+      "model": "No messages",
+      "term": "buyer_concession",
+      "coefficient": 0.07766737114408342,
+      "cluster_se": 0.10784922566896106
+    },
+    {
+      "model": "No messages",
+      "term": "experienced",
+      "coefficient": -0.049502113290551215,
+      "cluster_se": 0.04097793467101034
+    },
+    {
+      "model": "No messages",
+      "term": "interaction",
+      "coefficient": 0.07924171260762873,
+      "cluster_se": 0.11224128475870487
+    },
+    {
+      "model": "No messages",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0004950312639461401,
+      "cluster_se": 0.002254343733550795
+    },
+    {
+      "model": "No messages",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.00017358525134006418,
+      "cluster_se": 0.004373890868783557
+    },
+    {
+      "model": "No messages",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.07669973024855348,
+      "cluster_se": 0.038231623305259324
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-07",
+      "coefficient": -0.013939247826701383,
+      "cluster_se": 0.012999277982686422
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-08",
+      "coefficient": -0.015970294782650104,
+      "cluster_se": 0.013935783116408017
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-09",
+      "coefficient": -0.012504156346557813,
+      "cluster_se": 0.01568666420797888
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-10",
+      "coefficient": -0.004576894855639206,
+      "cluster_se": 0.014068393964283813
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-11",
+      "coefficient": -0.008482325037892606,
+      "cluster_se": 0.014404011620355789
+    },
+    {
+      "model": "No messages",
+      "term": "month_2012-12",
+      "coefficient": -0.002655823748170454,
+      "cluster_se": 0.013187679913316519
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-01",
+      "coefficient": 0.001609858136105903,
+      "cluster_se": 0.013314076068602595
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-02",
+      "coefficient": 0.010562833656740973,
+      "cluster_se": 0.014106390856011859
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-03",
+      "coefficient": -0.004588593660017264,
+      "cluster_se": 0.01314221377340914
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-04",
+      "coefficient": -0.003988212153752749,
+      "cluster_se": 0.015293022755633191
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-05",
+      "coefficient": 0.01372276004091875,
+      "cluster_se": 0.013897837615653792
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-06",
+      "coefficient": 0.01202082997717692,
+      "cluster_se": 0.01668568262916051
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-07",
+      "coefficient": 0.00348544768275937,
+      "cluster_se": 0.02086021663328424
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-08",
+      "coefficient": -0.00764496869157154,
+      "cluster_se": 0.020754071544543885
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-09",
+      "coefficient": 0.026619134791696482,
+      "cluster_se": 0.021915739018941612
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-10",
+      "coefficient": 0.0320865846649479,
+      "cluster_se": 0.02555725052658747
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-11",
+      "coefficient": 0.09283173058774055,
+      "cluster_se": 0.028504599280269067
+    },
+    {
+      "model": "No messages",
+      "term": "month_2013-12",
+      "coefficient": 0.05922632576221594,
+      "cluster_se": 0.0405079197353628
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "const",
+      "coefficient": 0.21760259498767118,
+      "cluster_se": 0.029300938733846534
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "buyer_concession",
+      "coefficient": 0.04380829094400641,
+      "cluster_se": 0.057937904859242065
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "experienced",
+      "coefficient": -0.042075771874890616,
+      "cluster_se": 0.023813246422784016
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "interaction",
+      "coefficient": 0.031833839439605646,
+      "cluster_se": 0.06267506500425529
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0003774983051648037,
+      "cluster_se": 0.0016194385525476248
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.004917973492324476,
+      "cluster_se": 0.003475500773852317
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.013140049233590015,
+      "cluster_se": 0.02755166934919841
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-07",
+      "coefficient": 0.007050879912306069,
+      "cluster_se": 0.009298301277899712
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-08",
+      "coefficient": 0.004910717809686684,
+      "cluster_se": 0.010480718156482619
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-09",
+      "coefficient": 0.006289578287445048,
+      "cluster_se": 0.010541478750893602
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-10",
+      "coefficient": 0.003234974378322983,
+      "cluster_se": 0.01083052316961881
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-11",
+      "coefficient": 0.006740028335554008,
+      "cluster_se": 0.010340994682410115
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2012-12",
+      "coefficient": 0.014182775173544054,
+      "cluster_se": 0.010472273017003887
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-01",
+      "coefficient": 0.014247031159199241,
+      "cluster_se": 0.010115881211242165
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-02",
+      "coefficient": 0.01622121796000851,
+      "cluster_se": 0.01078200101643563
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-03",
+      "coefficient": 0.014663515335886758,
+      "cluster_se": 0.010247502222500711
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-04",
+      "coefficient": 0.014061666179417759,
+      "cluster_se": 0.011458064544553696
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-05",
+      "coefficient": 0.0180541949795687,
+      "cluster_se": 0.010871807086988807
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-06",
+      "coefficient": 0.015696005506729047,
+      "cluster_se": 0.01342068020806282
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-07",
+      "coefficient": 0.018938330660590842,
+      "cluster_se": 0.016323057301749072
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-08",
+      "coefficient": 0.023460786684383683,
+      "cluster_se": 0.017564259179151765
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-09",
+      "coefficient": 0.06282016429495102,
+      "cluster_se": 0.019128916072210917
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-10",
+      "coefficient": 0.04812771922529767,
+      "cluster_se": 0.018893068433911243
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-11",
+      "coefficient": 0.08513282246712386,
+      "cluster_se": 0.023731704359199128
+    },
+    {
+      "model": "Price $1-$1000",
+      "term": "month_2013-12",
+      "coefficient": 0.08286014145265336,
+      "cluster_se": 0.03180671998641756
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "const",
+      "coefficient": 0.3425833551105475,
+      "cluster_se": 0.03259358338117545
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "buyer_concession",
+      "coefficient": 0.25553839499491715,
+      "cluster_se": 0.0654500661680426
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "experienced",
+      "coefficient": -0.025658924797927647,
+      "cluster_se": 0.023777070748836487
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "interaction",
+      "coefficient": -0.029206824027590582,
+      "cluster_se": 0.06719132557167536
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0038501662389746586,
+      "cluster_se": 0.0015012382330252567
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "log_initial_seller_price",
+      "coefficient": -0.00818318944069103,
+      "cluster_se": 0.0030824321862939655
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "gap_before_buyer_concession",
+      "coefficient": -0.17603507798671447,
+      "cluster_se": 0.01991285442978431
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-07",
+      "coefficient": -0.01703831813459745,
+      "cluster_se": 0.011311605753816836
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-08",
+      "coefficient": -0.020287362368411298,
+      "cluster_se": 0.010295623394775634
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-09",
+      "coefficient": -0.01711158865351136,
+      "cluster_se": 0.011539933288315056
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-10",
+      "coefficient": -0.02067951438765373,
+      "cluster_se": 0.012717012789249332
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-11",
+      "coefficient": -0.010096302633982862,
+      "cluster_se": 0.01218594074340964
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2012-12",
+      "coefficient": -0.006162961168957502,
+      "cluster_se": 0.012040394543546759
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-01",
+      "coefficient": -0.0038770569671056436,
+      "cluster_se": 0.011745116076769039
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-02",
+      "coefficient": -0.006697583341419863,
+      "cluster_se": 0.012028370846060352
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-03",
+      "coefficient": -0.007432194838003654,
+      "cluster_se": 0.012761131100992001
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-04",
+      "coefficient": -0.01080348412597652,
+      "cluster_se": 0.012921692035941025
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-05",
+      "coefficient": 0.003625869860519755,
+      "cluster_se": 0.013185285299992458
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-06",
+      "coefficient": -0.0071780515064221425,
+      "cluster_se": 0.015705134033163176
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-07",
+      "coefficient": -0.01664865390364404,
+      "cluster_se": 0.016790973577191542
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-08",
+      "coefficient": -0.005041591773081425,
+      "cluster_se": 0.01945815484998557
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-09",
+      "coefficient": 0.01885918964247624,
+      "cluster_se": 0.02151550459247808
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-10",
+      "coefficient": 0.008595250910507807,
+      "cluster_se": 0.02258557205545555
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-11",
+      "coefficient": 0.036890626673793246,
+      "cluster_se": 0.029394774492870996
+    },
+    {
+      "model": "Exclude midpoint and zero concessions",
+      "term": "month_2013-12",
+      "coefficient": 0.01746460107764022,
+      "cluster_se": 0.029022830667854573
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "const",
+      "coefficient": 0.18130777977879914,
+      "cluster_se": 0.03174835190929302
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "buyer_concession",
+      "coefficient": 0.07705795169888278,
+      "cluster_se": 0.056360953423177665
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "experienced",
+      "coefficient": 0.0016848040006347616,
+      "cluster_se": 0.022894170887757442
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "interaction",
+      "coefficient": 0.010969790844421954,
+      "cluster_se": 0.06061851711039466
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0030633066338616954,
+      "cluster_se": 0.002052746073983022
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "log_initial_seller_price",
+      "coefficient": 0.003212005160504014,
+      "cluster_se": 0.00233240976551219
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "gap_before_buyer_concession",
+      "coefficient": 0.03379528771459197,
+      "cluster_se": 0.022589036289853204
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-07",
+      "coefficient": 0.018998383832344784,
+      "cluster_se": 0.021238375806440727
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-08",
+      "coefficient": 0.017870677536369072,
+      "cluster_se": 0.0205163365244902
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-09",
+      "coefficient": 0.024207322745116066,
+      "cluster_se": 0.02179538862224108
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-10",
+      "coefficient": 0.0013671615518674757,
+      "cluster_se": 0.019894985047746064
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-11",
+      "coefficient": 0.004109664836452146,
+      "cluster_se": 0.02039108263775464
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2012-12",
+      "coefficient": 0.015953890714238604,
+      "cluster_se": 0.020005339485081923
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-01",
+      "coefficient": 0.03494874054212392,
+      "cluster_se": 0.019982014039323003
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-02",
+      "coefficient": 0.019174208162369234,
+      "cluster_se": 0.019884675730642783
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-03",
+      "coefficient": 0.006973185865870667,
+      "cluster_se": 0.01918926707078119
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-04",
+      "coefficient": 0.020383954488623443,
+      "cluster_se": 0.01971321976771566
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-05",
+      "coefficient": 0.02614867574476218,
+      "cluster_se": 0.019576600070737617
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-06",
+      "coefficient": 0.007976119492186502,
+      "cluster_se": 0.023195268065635252
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-07",
+      "coefficient": 0.004816902377238299,
+      "cluster_se": 0.031688603471864564
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-08",
+      "coefficient": 0.020105046019485533,
+      "cluster_se": 0.04234050003579235
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-09",
+      "coefficient": 0.11401776997004896,
+      "cluster_se": 0.02736795257208917
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-10",
+      "coefficient": 0.0021644796092753545,
+      "cluster_se": 0.046281327368355794
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-11",
+      "coefficient": 0.17518524343734693,
+      "cluster_se": 0.07123188083039023
+    },
+    {
+      "model": "Equal weight per seller",
+      "term": "month_2013-12",
+      "coefficient": 0.03688106452932643,
+      "cluster_se": 0.056718658907003554
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "const",
+      "coefficient": 0.009837586839112702,
+      "cluster_se": 0.005284509394112206
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "buyer_concession",
+      "coefficient": -0.13278031574858135,
+      "cluster_se": 0.028741634061535556
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "experienced",
+      "coefficient": -0.008803647293739603,
+      "cluster_se": 0.00365767626398003
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "interaction",
+      "coefficient": 0.03502305805044836,
+      "cluster_se": 0.02859562756465905
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "log_buyer_experience",
+      "coefficient": 0.0006057816260427671,
+      "cluster_se": 0.0004077008293107451
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "log_initial_seller_price",
+      "coefficient": -3.9983489425556154e-05,
+      "cluster_se": 0.0007635672037097572
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "gap_before_buyer_concession",
+      "coefficient": 0.16703161165596292,
+      "cluster_se": 0.00991841312223852
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-07",
+      "coefficient": 0.0001349305265988571,
+      "cluster_se": 0.002422625092581132
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-08",
+      "coefficient": -8.456676757141602e-05,
+      "cluster_se": 0.0022975221512281257
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-09",
+      "coefficient": -0.001006761424474121,
+      "cluster_se": 0.0024270659267894477
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-10",
+      "coefficient": -1.2077181905920014e-05,
+      "cluster_se": 0.0025648509852087957
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-11",
+      "coefficient": -4.9922406004500135e-05,
+      "cluster_se": 0.0023668030253561558
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2012-12",
+      "coefficient": 0.0025289801524590624,
+      "cluster_se": 0.0024060618607009373
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-01",
+      "coefficient": 0.0008642953281072748,
+      "cluster_se": 0.0023653918674209056
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-02",
+      "coefficient": 0.0024729159046996967,
+      "cluster_se": 0.0022813337567141982
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-03",
+      "coefficient": 0.0022579443352621,
+      "cluster_se": 0.0023072159762516473
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-04",
+      "coefficient": 0.0017062315917666627,
+      "cluster_se": 0.0023810351223279864
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-05",
+      "coefficient": 0.0030821722165729408,
+      "cluster_se": 0.0024369888918105644
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-06",
+      "coefficient": 0.0030171874151461698,
+      "cluster_se": 0.003046345963349396
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-07",
+      "coefficient": 0.002857163427948996,
+      "cluster_se": 0.0035981549964549894
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-08",
+      "coefficient": 0.005261277331677285,
+      "cluster_se": 0.00449687082402994
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-09",
+      "coefficient": 0.012462865822146766,
+      "cluster_se": 0.004386266655537983
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-10",
+      "coefficient": 0.012644285808987757,
+      "cluster_se": 0.0054301014783491985
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-11",
+      "coefficient": 0.01502745961055687,
+      "cluster_se": 0.005222372941797254
+    },
+    {
+      "model": "Both concessions scaled by seller first price",
+      "term": "month_2013-12",
+      "coefficient": 0.020674769440274608,
+      "cluster_se": 0.007157774501470462
+    }
+  ],
+  "measurement_models": [
+    {
+      "sample": "all",
+      "measure": "Remaining-gap fractions",
+      "n": 30419,
+      "sellers": 4520,
+      "slope": 0.08997571407123492,
+      "se": 0.017593689608637362,
+      "ci_low": 0.05548347775725028,
+      "ci_high": 0.12446795038521956,
+      "p": 3.282998167358817e-07
+    },
+    {
+      "sample": "all",
+      "measure": "Price movements / S2",
+      "n": 30419,
+      "sellers": 4520,
+      "slope": -0.09735692782137202,
+      "se": 0.011572260559263609,
+      "ci_low": -0.12004421825197995,
+      "ci_high": -0.0746696373907641,
+      "p": 5.300474217847408e-17
+    },
+    {
+      "sample": "all",
+      "measure": "Own preceding-price percentages",
+      "n": 30419,
+      "sellers": 4520,
+      "slope": -0.007557960914344713,
+      "se": 0.00412562511921304,
+      "ci_low": -0.015646203899201405,
+      "ci_high": 0.0005302820705119808,
+      "p": 0.06702385758411948
+    },
+    {
+      "sample": "discovery",
+      "measure": "Remaining-gap fractions",
+      "n": 15371,
+      "sellers": 2285,
+      "slope": 0.08592214717461907,
+      "se": 0.026539020112026367,
+      "ci_low": 0.03387904451444928,
+      "ci_high": 0.13796524983478886,
+      "p": 0.001222752729799115
+    },
+    {
+      "sample": "discovery",
+      "measure": "Price movements / S2",
+      "n": 15371,
+      "sellers": 2285,
+      "slope": -0.10722259269019863,
+      "se": 0.01318384144424639,
+      "ci_low": -0.13307614760074304,
+      "ci_high": -0.08136903777965422,
+      "p": 6.801933944940722e-16
+    },
+    {
+      "sample": "discovery",
+      "measure": "Own preceding-price percentages",
+      "n": 15371,
+      "sellers": 2285,
+      "slope": -0.005087499010982964,
+      "se": 0.002819772536293236,
+      "ci_low": -0.01061708190308588,
+      "ci_high": 0.0004420838811199524,
+      "p": 0.07132801470866855
+    },
+    {
+      "sample": "validation",
+      "measure": "Remaining-gap fractions",
+      "n": 15048,
+      "sellers": 2235,
+      "slope": 0.09627180071926131,
+      "se": 0.021638520934424144,
+      "ci_low": 0.053838088950667,
+      "ci_high": 0.13870551248785562,
+      "p": 9.046657955283548e-06
+    },
+    {
+      "sample": "validation",
+      "measure": "Price movements / S2",
+      "n": 15048,
+      "sellers": 2235,
+      "slope": -0.0884633189958435,
+      "se": 0.017827488034524563,
+      "ci_low": -0.12342349446752304,
+      "ci_high": -0.05350314352416397,
+      "p": 7.496418991255562e-07
+    },
+    {
+      "sample": "validation",
+      "measure": "Own preceding-price percentages",
+      "n": 15048,
+      "sellers": 2235,
+      "slope": -0.016432235095224575,
+      "se": 0.008354547647476382,
+      "ci_low": -0.03281572396234085,
+      "ci_high": -4.87462281083019e-05,
+      "p": 0.04932281759590139
+    }
+  ],
+  "exploratory_group_models": [
+    {
+      "model": "Exploratory common-price: discovery",
+      "n": 13550,
+      "sellers": 1487,
+      "threshold": 100,
+      "novice_n": 351,
+      "experienced_n": 13199,
+      "novice_sellers": 304,
+      "experienced_sellers": 1193,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": true,
+      "novice_slope_estimate": -0.08810219667706176,
+      "novice_slope_se": 0.03579125610368648,
+      "novice_slope_ci_low": -0.15830895304068057,
+      "novice_slope_ci_high": -0.01789544031344295,
+      "novice_slope_p": 0.013946472108628672,
+      "experienced_slope_estimate": -0.11088969749613191,
+      "experienced_slope_se": 0.015520801548894271,
+      "experienced_slope_ci_low": -0.14133470701897632,
+      "experienced_slope_ci_high": -0.08044468797328751,
+      "experienced_slope_p": 1.4090597320388852e-12,
+      "slope_difference_estimate": -0.02278750081907015,
+      "slope_difference_se": 0.03496188113459668,
+      "slope_difference_ci_low": -0.09136738702702059,
+      "slope_difference_ci_high": 0.045792385388880294,
+      "slope_difference_p": 0.5146430488875253
+    },
+    {
+      "model": "Exploratory common-price: validation",
+      "n": 13466,
+      "sellers": 1517,
+      "threshold": 100,
+      "novice_n": 391,
+      "experienced_n": 13075,
+      "novice_sellers": 336,
+      "experienced_sellers": 1192,
+      "seller_fe": false,
+      "equal_seller_weight": false,
+      "absolute_scale": true,
+      "novice_slope_estimate": -0.173836148191727,
+      "novice_slope_se": 0.0424831544335964,
+      "novice_slope_ci_low": -0.257168131641065,
+      "novice_slope_ci_high": -0.090504164742389,
+      "novice_slope_p": 4.503942297610723e-05,
+      "experienced_slope_estimate": -0.08684776563882982,
+      "experienced_slope_se": 0.019452554020326765,
+      "experienced_slope_ci_low": -0.12500453462835884,
+      "experienced_slope_ci_high": -0.048690996649300794,
+      "experienced_slope_p": 8.61546946394504e-06,
+      "slope_difference_estimate": 0.08698838255289718,
+      "slope_difference_se": 0.043135591898719274,
+      "slope_difference_ci_low": 0.0023766234190504,
+      "slope_difference_ci_high": 0.17160014168674395,
+      "slope_difference_p": 0.04391052716556036
+    }
+  ],
+  "descriptives": [
+    {
+      "experience_group": "0-9",
+      "n": 742,
+      "sellers": 640,
+      "zero_seller_concession": 0.27897574123989216,
+      "midpoint_seller_concession": 0.10512129380053908,
+      "seller_concession_mean": 0.26431538505269536,
+      "buyer_concession_mean": 0.3569596837735849,
+      "median_initial_price": 167.5
+    },
+    {
+      "experience_group": "10-99",
+      "n": 3403,
+      "sellers": 1873,
+      "zero_seller_concession": 0.26976197472818103,
+      "midpoint_seller_concession": 0.10314428445489274,
+      "seller_concession_mean": 0.2550622794285219,
+      "buyer_concession_mean": 0.3488756253849574,
+      "median_initial_price": 120.0
+    },
+    {
+      "experience_group": "100+",
+      "n": 26274,
+      "sellers": 2385,
+      "zero_seller_concession": 0.2806576844028317,
+      "midpoint_seller_concession": 0.07874705031590165,
+      "seller_concession_mean": 0.23180226089091496,
+      "buyer_concession_mean": 0.3562617300100692,
+      "median_initial_price": 60.0
+    }
+  ],
+  "sample_metadata": {
+    "raw_rows": 2234913,
+    "raw_threads": 1324190,
+    "raw_sellers": 21315,
+    "last_seller_dropped": 3324908,
+    "identical_records_removed": 71,
+    "main_threads": 30419,
+    "main_sellers": 4520,
+    "incoming_round3": 70167,
+    "date_min": "2012-06-01 00:45:52",
+    "date_max": "2013-12-31 22:24:26",
+    "main_date_min": "2012-06-01 08:50:06",
+    "main_date_max": "2013-12-30 19:03:38",
+    "experience_summary": [
+      {
+        "experience_group": "0-9",
+        "n": 742,
+        "sellers": 640,
+        "buyer_gamma": 0.3569596839971775,
+        "seller_gamma": 0.2643153851819503
+      },
+      {
+        "experience_group": "10-99",
+        "n": 3403,
+        "sellers": 1873,
+        "buyer_gamma": 0.34887562557126534,
+        "seller_gamma": 0.25506227950923466
+      },
+      {
+        "experience_group": "100+",
+        "n": 26274,
+        "sellers": 2385,
+        "buyer_gamma": 0.3562617301848826,
+        "seller_gamma": 0.23180226098219622
+      }
+    ]
+  },
+  "sample_flow": [
+    {
+      "step": "Raw prefix",
+      "rows": 2234913,
+      "threads": 1324190,
+      "sellers": 21315
+    },
+    {
+      "step": "Drop potentially truncated last seller",
+      "rows": 2227948,
+      "threads": 1320212,
+      "sellers": 21314
+    },
+    {
+      "step": "Deduplicate identical analysis-field records",
+      "rows": 2227877,
+      "threads": 1320212,
+      "sellers": 21314
+    },
+    {
+      "step": "Strict alternating human offer histories",
+      "rows": 1363663,
+      "threads": 928563,
+      "sellers": 18614
+    },
+    {
+      "step": "Observed initial experience for both parties",
+      "rows": 1315115,
+      "threads": 900435,
+      "sellers": 18554
+    },
+    {
+      "step": "Every observed interior concession bounded in [0,1]",
+      "rows": 1304538,
+      "threads": 897890,
+      "sellers": 18542
+    }
+  ],
+  "binned_concessions": [
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.0391990248,
+      "seller_concession": 0.2503930443,
+      "n": 50
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.16682269174311926,
+      "seller_concession": 0.22854858279816512,
+      "n": 109
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.255148595248227,
+      "seller_concession": 0.2459562030402837,
+      "n": 141
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.35815434704402516,
+      "seller_concession": 0.2864151490596227,
+      "n": 159
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.4765287618452381,
+      "seller_concession": 0.2828761566547619,
+      "n": 168
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.55533128,
+      "seller_concession": 0.2462559102667857,
+      "n": 56
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.6532559860975611,
+      "seller_concession": 0.3018474821219512,
+      "n": 41
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.7507963807142858,
+      "seller_concession": 0.28200923214285717,
+      "n": 14
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.836984795,
+      "seller_concession": 0.2083333325,
+      "n": 4
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.03737269375490273,
+      "seller_concession": 0.18171382280777043,
+      "n": 257
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.16300295713414636,
+      "seller_concession": 0.2174140494116057,
+      "n": 492
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.2568746430884808,
+      "seller_concession": 0.2706570882505059,
+      "n": 599
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.35782013162227605,
+      "seller_concession": 0.26964745719378935,
+      "n": 826
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.4747333165374677,
+      "seller_concession": 0.26066895650003874,
+      "n": 774
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.5531313938554216,
+      "seller_concession": 0.2954955419718876,
+      "n": 249
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.6529894165151515,
+      "seller_concession": 0.23986049588636366,
+      "n": 132
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.7450039430645162,
+      "seller_concession": 0.26407926758064515,
+      "n": 62
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.8581234418181818,
+      "seller_concession": 0.4623376627272728,
+      "n": 11
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 9,
+      "buyer_concession": 0.99666667,
+      "seller_concession": 1.0,
+      "n": 1
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.04064153495510516,
+      "seller_concession": 0.1679521341547406,
+      "n": 1569
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.1629168290261959,
+      "seller_concession": 0.20583053066277135,
+      "n": 3512
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.2555650627676969,
+      "seller_concession": 0.2278206799526413,
+      "n": 5015
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.35421910495316716,
+      "seller_concession": 0.25331595126171347,
+      "n": 6299
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.47062510085079706,
+      "seller_concession": 0.2354471502028354,
+      "n": 5583
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.5484037884459985,
+      "seller_concession": 0.25584694616462705,
+      "n": 2574
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.649499119222586,
+      "seller_concession": 0.22702423606918987,
+      "n": 1222
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.7396056706904762,
+      "seller_concession": 0.2248585303207143,
+      "n": 420
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.8373838152173912,
+      "seller_concession": 0.24500456942028986,
+      "n": 69
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 9,
+      "buyer_concession": 0.9465647618181818,
+      "seller_concession": 0.36363636363636365,
+      "n": 11
+    }
+  ],
+  "response_selection": [
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.025482443863179195,
+      "acceptance": 0.1907514450867052,
+      "counteroffer": 0.28901734104046245,
+      "n": 173
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.16327113520547945,
+      "acceptance": 0.091324200913242,
+      "counteroffer": 0.4977168949771689,
+      "n": 219
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.2552445955284553,
+      "acceptance": 0.06910569105691057,
+      "counteroffer": 0.573170731707317,
+      "n": 246
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.3608833079761905,
+      "acceptance": 0.25,
+      "counteroffer": 0.4732142857142857,
+      "n": 336
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.4832325983114035,
+      "acceptance": 0.40350877192982454,
+      "counteroffer": 0.3684210526315789,
+      "n": 456
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.56503619431694,
+      "acceptance": 0.4644808743169399,
+      "counteroffer": 0.30601092896174864,
+      "n": 183
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.6566623173248408,
+      "acceptance": 0.5732484076433121,
+      "counteroffer": 0.2611464968152866,
+      "n": 157
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.75247613609375,
+      "acceptance": 0.671875,
+      "counteroffer": 0.21875,
+      "n": 64
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.8492852000000001,
+      "acceptance": 0.5789473684210527,
+      "counteroffer": 0.21052631578947367,
+      "n": 19
+    },
+    {
+      "experience_group": "0-9",
+      "buyer_concession_bin": 9,
+      "buyer_concession": 0.9959257795454545,
+      "acceptance": 0.75,
+      "counteroffer": 0.0,
+      "n": 44
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.029920803799125,
+      "acceptance": 0.14511494252873564,
+      "counteroffer": 0.3692528735632184,
+      "n": 696
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.1636709245011338,
+      "acceptance": 0.08390022675736962,
+      "counteroffer": 0.5578231292517006,
+      "n": 882
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.2565265175969726,
+      "acceptance": 0.13623462630085148,
+      "counteroffer": 0.5666982024597919,
+      "n": 1057
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.3582854895897436,
+      "acceptance": 0.24294871794871795,
+      "counteroffer": 0.5294871794871795,
+      "n": 1560
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.48210299839512444,
+      "acceptance": 0.43575418994413406,
+      "counteroffer": 0.3930929405789741,
+      "n": 1969
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.5571087222393822,
+      "acceptance": 0.5045045045045045,
+      "counteroffer": 0.3204633204633205,
+      "n": 777
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.656382703032929,
+      "acceptance": 0.5944540727902946,
+      "counteroffer": 0.22876949740034663,
+      "n": 577
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.7492972490721649,
+      "acceptance": 0.6735395189003437,
+      "counteroffer": 0.21305841924398625,
+      "n": 291
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.8486191701639345,
+      "acceptance": 0.7213114754098361,
+      "counteroffer": 0.18032786885245902,
+      "n": 61
+    },
+    {
+      "experience_group": "10-99",
+      "buyer_concession_bin": 9,
+      "buyer_concession": 0.9957623662585033,
+      "acceptance": 0.7551020408163265,
+      "counteroffer": 0.006802721088435374,
+      "n": 147
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 0,
+      "buyer_concession": 0.03291676230786143,
+      "acceptance": 0.13614341085271317,
+      "counteroffer": 0.3800872093023256,
+      "n": 4128
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 1,
+      "buyer_concession": 0.16290638270300692,
+      "acceptance": 0.09503135552339605,
+      "counteroffer": 0.5647210162405532,
+      "n": 6219
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 2,
+      "buyer_concession": 0.2557667280691299,
+      "acceptance": 0.1572109654350417,
+      "counteroffer": 0.597735399284863,
+      "n": 8390
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 3,
+      "buyer_concession": 0.35671541956558345,
+      "acceptance": 0.28700117864960434,
+      "counteroffer": 0.5303081326822697,
+      "n": 11878
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 4,
+      "buyer_concession": 0.4778143769306519,
+      "acceptance": 0.47766990291262135,
+      "counteroffer": 0.38717059639389734,
+      "n": 14420
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 5,
+      "buyer_concession": 0.552178188214182,
+      "acceptance": 0.5065387968613775,
+      "counteroffer": 0.37401918047079336,
+      "n": 6882
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 6,
+      "buyer_concession": 0.6534831283125396,
+      "acceptance": 0.6474941848170861,
+      "counteroffer": 0.25840558257559737,
+      "n": 4729
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 7,
+      "buyer_concession": 0.7447339335806175,
+      "acceptance": 0.7225557461406518,
+      "counteroffer": 0.18010291595197256,
+      "n": 2332
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 8,
+      "buyer_concession": 0.8424288453136531,
+      "acceptance": 0.7730627306273062,
+      "counteroffer": 0.12730627306273062,
+      "n": 542
+    },
+    {
+      "experience_group": "100+",
+      "buyer_concession_bin": 9,
+      "buyer_concession": 0.9915958205457026,
+      "acceptance": 0.7421555252387448,
+      "counteroffer": 0.015006821282401092,
+      "n": 733
+    }
+  ],
+  "source_manifest": {
+    "source_url": "https://back.nber.org/appendix/w24306/bargaining/anon_bo_threads.csv.gz",
+    "headers": {
+      "status": 206,
+      "content_range": "bytes 0-67108863/1374076192",
+      "content_length": "67108864",
+      "last_modified": "Thu, 24 May 2018 17:51:23 GMT"
+    },
+    "compressed_bytes": 67108864,
+    "sha256": "c68403e3759c653ce5a1c5598a71b58d0d6cee97de3d0205635a7dd7fff25285",
+    "decoded_bytes": 243716712,
+    "discarded_partial_line_bytes": 33,
+    "elapsed_seconds": 160.96,
+    "sampling": "Contiguous file prefix; nonrandom. Exclude the last seller and any incomplete histories before analysis."
+  },
+  "validation": {
+    "unique_threads": true,
+    "seller_split_disjoint": true,
+    "concessions_recomputed_from_prices": true,
+    "primary_vs_validation_n": [
+      27016,
+      13466
+    ],
+    "max_coefficient_reproduction_difference": 2.299999996013824e-09,
+    "all_model_sample_sizes_match": true,
+    "measurement_reproduction_script_executed": true,
+    "github_reproduction": {
+      "all_regressions_refit": true,
+      "maximum_difference_from_original_regression_and_descriptive_outputs": 1.7928520557042305e-08,
+      "graph_bins": "Recomputed after reloading the supplied eight-significant-digit sample; near-boundary assignments can differ slightly from the initial full-precision raw-data plots.",
+      "source_compilation": "Compiled with hosted pdfLaTeX at TeXLive.net.",
+      "numerical_comparisons_passed": 951,
+      "tolerance": 1e-06,
+      "source_cleaning_csv_identical": true,
+      "source_cleaning_selection_content_identical": true,
+      "python_files_parsed": 7,
+      "pdf_pages": 19,
+      "all_pdf_pages_visually_reviewed": true,
+      "all_four_figures_present": true,
+      "latex_references_resolved": true,
+      "github_workflow_executed": false,
+      "report_tex_sha256": "24289825cca856b016811c9232fa9ef2d0cbc58b2dfe0aac63e47c33a32c6982",
+      "report_pdf_sha256": "f3593dcbcdabd69169d621592ccdb09786a5ec07dfce712427f3af1c7fb97b22"
+    }
+  },
+  "data_hashes": {
+    "bargaining_analysis_sample.csv": "82bc9e9c544b77514458b3f3d98db5a0c343086fa85ee03067cfd71aa894f17f",
+    "incoming_buyer_offers.csv.gz": "3cc9417e13eea77ff96dc1fb6aea7821ee48e818fffce011e4ea26549a4ec89d"
+  },
+  "reproduction_audit": {
+    "unique_threads": true,
+    "disjoint_seller_halves": true,
+    "hash_split_recomputed": true,
+    "gap_concessions_recalculated": true,
+    "archive_metadata_source": "Committed sampling/source metadata; optional raw-data pipeline independently reconstructs it",
+    "versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "statsmodels": "0.15.0"
+    }
+  },
+  "author": "nakshatra0904",
+  "project_version": "1.1",
+  "repository_url": "https://github.com/nakshatra0904/bargaining-experience-reciprocity"
+}

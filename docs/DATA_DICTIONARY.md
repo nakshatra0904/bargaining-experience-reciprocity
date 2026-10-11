@@ -1,0 +1,25 @@
+# Processed data dictionary
+
+- **anon_thread_id**: Anonymized bargaining-thread identifier; unique in the analysis sample.
+- **anon_item_id**: Anonymized listing identifier.
+- **anon_byr_id**: Anonymized buyer identifier.
+- **anon_slr_id**: Anonymized seller identifier used for clustering and splitting.
+- **slr_hist**: Recorded cumulative seller experience count at the initial offer; see definition ambiguity.
+- **byr_hist**: Recorded buyer experience count at the initial offer.
+- **timestamp**: Timestamp of the initial buyer offer.
+- **p1**: Price of observed offer 1; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **p2**: Price of observed offer 2; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **p3**: Price of observed offer 3; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **p4**: Price of observed offer 4; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **p5**: Price of observed offer 5; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **p6**: Price of observed offer 6; buyer on odd rounds, seller on even rounds. p5/p6 may be missing.
+- **message**: Maximum source message indicator across the retained thread; missing treated as zero.
+- **month**: Year-month of the initial buyer offer; used for fixed effects.
+- **gamma_buyer**: (p3-p1)/(p2-p1): buyer concession relative to the preceding gap.
+- **gamma_seller**: (p2-p4)/(p2-p3): seller concession relative to the remaining gap.
+- **gap_before**: (p2-p1)/p2: relative gap before the buyer concession.
+- **buyer_abs**: (p3-p1)/p2: buyer price movement on the common p2 scale.
+- **seller_abs**: (p2-p4)/p2: seller price movement on the common p2 scale.
+- **round3_status**: Source status of the incoming buyer offer: 1 accepted, 7 countered; see codebook for other codes.
+- **split**: SHA-256 seller-ID split: discovery if first 8 hex digits are even, validation otherwise.
+- **experience_group**: Recorded seller experience: 0-9, 10-99, or 100+.
